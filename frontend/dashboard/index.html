@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cyber Command Center</title>
+    <link rel="stylesheet" href="/static/dashboard.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="brand">
+          <span class="brand-mark">C3</span>
+          <div>
+            <strong>Cyber Command Center</strong>
+            <span>Local SOC Lab</span>
+          </div>
+        </div>
+        <nav id="navigation" class="nav-list"></nav>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <button id="nav-toggle" class="icon-button" type="button" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div>
+          <p class="eyebrow">Phase 4 Dashboard</p>
+            <h1 id="page-title">Overview</h1>
+          </div>
+          <div id="api-state" class="api-state">Connecting</div>
+        </header>
+
+        <section id="alert-banner" class="banner hidden" role="status"></section>
+        <section id="page-content" class="content" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <script src="/static/dashboard.js" defer></script>
+  </body>
+</html>

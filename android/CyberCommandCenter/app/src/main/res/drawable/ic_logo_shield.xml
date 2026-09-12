@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Shield Outline -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M100,10 L30,40 V100 C30,150 100,190 100,190 C100,190 170,150 170,100 V40 L100,10 Z" />
+
+    <!-- Inner Shield Gap (to show background) -->
+    <path
+        android:fillColor="#121212"
+        android:pathData="M100,22 L42,48 V100 C42,140 100,175 100,175 C100,175 158,140 158,100 V48 L100,22 Z" />
+
+    <!-- Core Inner Shield -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M100,35 L55,55 V100 C55,130 100,160 100,160 C100,160 145,130 145,100 V55 L100,35 Z" />
+
+    <!-- Circular Center Element -->
+    <path
+        android:fillColor="#FF8A5B"
+        android:pathData="M100,115 A15,15 0 1,1 100,85 A15,15 0 1,1 100,115 Z" />
+
+    <!-- Vertical Security Element (Lower) -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M97,115 H103 V145 H97 Z" />
+
+    <!-- Vertical Security Element (Upper) -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M97,55 H103 V85 H97 Z" />
+
+</vector>
